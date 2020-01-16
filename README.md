@@ -19,6 +19,7 @@
 
 - 使用
     <pre>
+    import 'package:device_info_collect_package/device_info_collect_package.dart';
     var b = await DeviceInfoCollect.execute('APP_NAME', 'USER_INFO', 'http://IP:30002');
     print(b);
     </b>
